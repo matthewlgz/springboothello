@@ -1,0 +1,13 @@
+package com.atguigu.dao;
+
+
+import com.atguigu.pojo.User;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface UserDao {
+
+    List<User> listUsers();
+}
